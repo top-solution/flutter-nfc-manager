@@ -59,6 +59,7 @@ const Map<Iso15693RequestFlag, String> $Iso15693RequestFlagTable = {
   Iso15693RequestFlag.option: 'option',
   Iso15693RequestFlag.protocolExtension: 'protocolExtension',
   Iso15693RequestFlag.select: 'select',
+  Iso15693RequestFlag.st25: 'st25',
 };
 
 const Map<MiFareFamily, int> $MiFareFamilyTable = {

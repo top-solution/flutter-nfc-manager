@@ -368,4 +368,7 @@ enum Iso15693RequestFlag {
 
   /// Indicates RequestFlag#select on iOS.
   select,
+
+  /// Indicates the custom RequestFlag used by ST25dv Tags
+  st25,
 }

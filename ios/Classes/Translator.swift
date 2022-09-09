@@ -18,6 +18,7 @@ func getRequestFlags(_ arg: [String]) -> RequestFlag {
   if arg.contains("option") { flag.insert(RequestFlag.option) }
   if arg.contains("protocolExtension") { flag.insert(RequestFlag.protocolExtension) }
   if arg.contains("select") { flag.insert(RequestFlag.select) }
+  if arg.contains("st25") { flag.insert(RequestFlag(rawValue: 0x02)) }
   return flag
 }
 
